@@ -1,0 +1,10 @@
+@mixin card($width: 100px, $height: 50px){
+    width: $width;
+    height: $height;
+    background-color: rgb(192, 178, 178);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px;
+}
